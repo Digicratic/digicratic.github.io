@@ -1,0 +1,81 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "silkamedium", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.purple {
+  color: #fff;
+  background-color: #603bd8;
+}
+
+.strapline {
+  margin: auto;
+  width: 60%;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.w3-col,
+.w3-half,
+.w3-third,
+.w3-twothird,
+.w3-threequarter,
+.w3-quarter {
+    float: left;
+    width: 100%
+}
+
+@media (min-width:601px) {
+  .w3-col.m4,
+  .w3-third {
+    width: 33.33333%
+  }
+  .banner {
+    padding:128px 16px;
+  }
+}
+
+.w3-row-padding,
+.w3-row-padding>.w3-half,
+.w3-row-padding>.w3-third,
+.w3-row-padding>.w3-twothird,
+.w3-row-padding>.w3-threequarter,
+.w3-row-padding>.w3-quarter,
+.w3-row-padding>.w3-col {
+    padding: 0 5%;
+}
+
+@media (min-width:993px) {
+
+}
+
+@media (max-width:1205px) {
+  .w3-auto {
+      max-width: 95%
+  }
+}
+
+@media (max-width:600px) {
+  .banner {
+    height: 50vh;#
+  }
+  .strapline {
+    font-size: 8vw;
+    line-height: 2rem;
+    padding: 50% 0;
+  }
+}
